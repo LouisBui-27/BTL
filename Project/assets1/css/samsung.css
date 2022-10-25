@@ -10,12 +10,12 @@ body {
     color: #000000;
     background:#ffffff;
 }
-div.img-container {
+.img-container {
    display: flex;
    width: 100%;
    margin-top: 65px;
    margin-bottom: 65px;
-   padding-left: 130px;
+   padding-left: 140px;
 }
 .img3 {
     width: 63px;
@@ -67,11 +67,11 @@ div.img-container {
 }
 .top ul li a {
     text-decoration: none;
-    font-weight: bold;
-    background-color:bisque;
+    border: 1px solid #d0d1e3;
     padding: 10px;
     border-radius: 10px;
     font-size: 14px;
+    color: rgb(30,144, 255);
 }
 main {
     display:inline-flex;
