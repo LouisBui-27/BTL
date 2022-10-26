@@ -1,13 +1,21 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0 auto;
 }
-body{
+
+.app{
     background-color: #fff;
 }
+body{
+    line-height: 1.6rem;
+}
+/* header */
 .header {
     height: 162px;
     background-color: rgb(255 218 0);
+}
+footer{
+    background-color: rgb(255 218 0); 
 }
 .navbar {
     display: flex;
@@ -17,6 +25,7 @@ body{
 .navbar-list {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 .navbar-item {
     font-size: 1.6rem;
@@ -108,18 +117,19 @@ body{
 }
 
 .logo {
-    width: 200px
+    width: 200px;
 }
 
 .main-logo {
-    width: 150px;
-    height: 50px;
-    display: block;
+    width: 140px;
+    padding: 10px;
+    margin-left: 0;
     text-align: center;
     color: var(--white-color);
-    background-color: rgb(27, 26, 26);
-    border-radius: 15px;
-    align-items: center;
+    background-color: rgb(5, 6, 63);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    display: block;
 }
 
 .search-bar {
@@ -222,51 +232,13 @@ body{
 .cart-list--no-cart {
     padding: 24px 0;
 }
-:root {
-    --white-color: #fff;
-    --black-color: #000;
-    --text-color: #333
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-    line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.grid__full-width {
-    width: 100%;
-}
-.grid__row {
-    display: flex;
-    flex-wrap: wrap;
-}
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 /* Banner */
 .main
 {
-  margin-top: 55px;
-  margin-left: auto;
-  margin-right: auto;
-  /* max-width: 1200px; */
-  max-width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1200px;
 }
 .banner{
     display: flex;
@@ -286,6 +258,8 @@ html {
 
 .product-list{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .phone-img img:hover{
     transform: scale(1.1);
@@ -294,10 +268,7 @@ html {
     position: relative;
     text-align: center;
     padding-bottom: 5px;
-}
-.item span
-{
-
+    transition: all 0.5s ease;
 }
 .phone-img img{
     height: 208.8px;
@@ -308,9 +279,10 @@ html {
 {
   background-color: #fff;
   border: 1px solid rgb(248, 239, 239);
+  justify-content: space-evenly;
   padding: 10px 15px 20px;
-  /* width: 300px; */
   width: 20%;
+  cursor: pointer;
 }
 
 .item h1{
@@ -323,7 +295,7 @@ html {
     
 }
 .item:hover{
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 9px rgba(0,0,0,0.3);
 }
 .item span
 {
@@ -354,6 +326,8 @@ html {
 /* End Product_List */
 /* Footer */
 
+/* Footer */
+
 .first-footer {
     display: flex;
     padding: 10px 0;
@@ -375,7 +349,7 @@ html {
 }
 
 .second-footer {
-    background-color: yellow;
+    background-color: white;
     display: flex;
     justify-content:space-around;
 }
