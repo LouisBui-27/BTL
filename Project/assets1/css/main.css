@@ -294,7 +294,7 @@ section {
 }
 
 
-@keyframes float {
+/* @keyframes float {
     from {
         top: 0;
     }
@@ -302,15 +302,19 @@ section {
         top: -10px;
     }
 }
-
+ */
 .hot-brand-product-img:hover {
     width: 100%;
-    position: relative;
-    animation: float 0.3s forwards;
+    /* position: relative;
+    animation: float 0.5s forwards; */
+    transform: translateY(-10px);
 }
 
 .hot-brand-product-img {
     width: 100%;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease;
 }
 
 .name-product {
@@ -405,12 +409,14 @@ section {
 
 .extra-container-img {
     width: 100%;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease;
 }
 
 .extra-container-img:hover {
     width: 100%;
-    position: relative;
-    animation: float 0.2s forwards;
+    transform: translateY(-10px);
 }
 
 .extra-name-product {
