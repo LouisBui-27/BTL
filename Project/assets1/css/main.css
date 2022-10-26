@@ -329,6 +329,8 @@ section {
     font-size: 1.7rem;
     font-weight: 200;
     text-decoration: line-through;
+    display: block;
+    padding: 5px 20px
 }
 
 .price-new {
@@ -338,7 +340,7 @@ section {
 
 .rating-product {
     font-size: 1.8rem;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 .rating-item {
@@ -420,7 +422,7 @@ section {
     font-size: 1.7rem;
     font-weight: 200;
     text-decoration: line-through;
-    padding-left: 20px;
+    padding: 5px 20px;
 }
 .extra-price-new {
     font-size: 1.8rem;
@@ -429,7 +431,7 @@ section {
 }
 .extra-rating-product {
     font-size: 1.8rem;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 .extra-container-button {
