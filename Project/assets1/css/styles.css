@@ -254,12 +254,53 @@ footer{
 
 /* End_Banner */
 
+/* Tiltle */
+
+.sub-suggestion{
+    list-style: none;
+}
+.sub-suggestion li a{
+    text-decoration: none;
+    color: #80c9f4;
+}
+.sub-suggestion-text{
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+}
+.sub-suggestion-text:hover{
+    color: #8eb3d3;
+    cursor: pointer;
+}
+.sub-suggestion li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #d0d1e3;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.sub-suggestion li:hover{
+    border: 1px solid #6299e2;
+    cursor: pointer;
+}
+.sub-suggestion{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/* End Tiltle */
+
 /* Product_List */
 
 .product-list{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top:20px;
 }
 .phone-img img:hover{
     transform: scale(1.1);
