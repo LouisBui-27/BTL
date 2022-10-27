@@ -27,7 +27,7 @@ body {
     max-height:95px ;
     width: 100%;
 /*     position: relative; */
-    left: 10px;
+    padding-left: 10px;
 }
 #anh3 {
     max-height: 95px;
