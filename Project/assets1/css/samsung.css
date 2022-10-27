@@ -26,7 +26,7 @@ body {
 #anh2 {
     max-height:95px ;
     width: 100%;
-    position: relative;
+/*     position: relative; */
     left: 10px;
 }
 #anh3 {
@@ -34,7 +34,7 @@ body {
     width: 100%;
     position: relative;
     top: 105px;
-    right: 370px;
+    right: 382px;
 }
 .page-content2 {
     position:relative;
