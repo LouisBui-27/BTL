@@ -424,3 +424,46 @@ footer{
     width: 100%;
 }
 /* End Footter */
+
+/* Responsive */
+
+@media only screen and (max-width:720px) {
+    .main{
+        margin: 0 auto;
+    }
+    .top .bottom{
+        max-width: 720px;
+        width: 100%;
+    }
+    .banner{
+        margin-top: 70px;
+        max-width: 720px;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    .top{
+        margin-top: 10px;
+    }
+    .main-banner img{
+        width: 100%;
+    }
+    .product-list{
+        flex-wrap: wrap;
+    }
+    .item li{
+        list-style: none;
+    }
+    .item{
+        text-align: center;
+        width: 100%;
+    }
+    .phone-img img{
+        width: 50%;
+        height: 50%;
+    }
+    .product-list img{
+        text-align: center;
+    }
+}
+
+/* End Responsive */
