@@ -64,6 +64,9 @@ html {
         left:80px;
         
     }
+    .logo {
+    display: none;
+  }
     
  }
 
