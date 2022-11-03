@@ -63,12 +63,87 @@ html {
         bottom: 0px;
         left:80px;
         
+    }.nav_bar-btl{
+        display: block;
+       
     }
-    .logo {
+    .navbar-item-link{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .search{
+       margin: -35px 50px;
+    }
+    .cart{
+        display: none;
+    }
+    .header{
+        height: 80px;
+    }
+    .search-bar{
+        height: 30px;
+    }
+    .search-button{
+        height: 24px;
+        width: 45px;
+    }
+  
+}
+.nav_overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     display: none;
-  }
-    
- }
+}
+.navbar-mb{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: all linear 0.2s;
+    background-color: rgba(255, 218, 0, 1);
+    text-align: center;
+}
+
+.navbar-mb-list{
+    margin-top: 30px;
+}
+.navbar-mb-item-link{
+    text-decoration: none;
+    color:#333 ;
+    display: block;
+    font-size: 1.4rem;
+    padding: 0 10px;
+}
+.brand-mb-list{
+    padding: 20px 20px 0;
+}
+.list2{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.close{
+    font-size: 2rem;
+    color: #666;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.nav-input:checked ~ .nav_overlay{
+    display: block;
+}
+.nav-input:checked ~ .navbar-mb{
+    transform: translateX(0%);
+}
 
 /* Footer */
 
