@@ -115,7 +115,7 @@ footer{
 }
 
 .main-logo {
-    width: 140px;
+    width: 160px;
     padding: 10px;    
     display: block;
     text-align: center;
@@ -235,7 +235,7 @@ footer{
 .container{
     width: 1200px;
     max-width: 100%;
-    margin-top: 30px;
+   margin: 30px auto 0;
 }
 .slide-content-right{
     padding: 0 6px;
